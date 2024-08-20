@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULÁRIOS</title>
+</head>
+<body>
+    <h1>Fomulários</h1>
+    <form action="">
+    <div class="Nome">
+    <label for="nome"> Nome: </label>
+    <input type="text" id="nome" required placeholder="Digite seu nome">
+</div>
+
+<div>
+    <label for="Nascimento"> Data de Nascimento:</label>
+    <input type="date" id="Nascimento" required>
+</div>
+
+<div>
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" required placeholder="Digite o seu e-mail">
+</div>
+<div >
+    <label for="Senha">Senha:</label>
+    <input type="password" id="Senha" required placeholder="Digite a sua senha">
+</div>
+
+<div>
+    <p>Selecione o seu Gênero:</p>
+    <div>
+       
+        <input type="radio" id="generofem" name="genero" required>
+        <label for="generofem">Feminino</label>
+    </div>
+    <div>
+        
+        <input type="radio" id="generomasc" name="genero" required>
+        <label for="generomasc">Masculino</label>
+    </div>
+    <div>
+        
+        <input type="radio" id="generoout" name="genero" required>
+        <label for="generoout">Outro</label>
+    </div>
+    <div>
+        <p>Você já sabe falar inglês?</p>
+        <div>
+            <input type="radio" id="ingles" name="ingles" required>
+            <label for="ingles">Sim</label>
+        </div>
+        <div>
+            <input type="radio" name="ingles" id="nao" required>
+            <label for="nao">Não</label>
+        </div>
+        <div>
+            <p>Quais estilos musicais você gosta?</p>
+            <div>
+                <input type="checkbox" name="musica" id="gospel" >
+                <label for="gospel">Gospel</label>
+            </div>
+            <div>
+                <input type="checkbox" name="musica" id="funk" >
+                <label for="funk">Funk</label>
+            </div>
+            <div>
+                <input type="checkbox" name="musica" id="rap" >
+                <label for="rap">Rap</label>
+            </div>
+            <div>
+                <input type="checkbox" name="musica" id="trap" >
+                <label for="trap">Trap</label>
+            </div>
+            <div>
+                <input type="checkbox" name="musica" id="rock" >
+                <label for="rock">Rock</label>
+            </div>
+            <div>
+                <input type="checkbox" name="musica" id="outro">
+                <label for="outro">Outro</label>
+            </div>
+        </div>
+    </div>
+    <div>
+        <label for="time">Selecione seu time do coração</label>
+        <select name="" id="time">
+            <option value="" disabled selected>Selecione</option>
+            <option value="verde">Palmeiras</option>
+            <option value="vermelho">Flamengo</option>
+            <option value="preto">Botafogo</option>
+            <option value="branco">Santos</option>
+            <option value="azul">Grêmio</option>
+        </select>
+    </div>
+</div>
+
+<button>ENVIAR</button>
+</form>
+</body>
+</html>
